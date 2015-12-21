@@ -1,0 +1,142 @@
+ html, body {
+        position: relative;
+        height: 100%;
+	 	font-family: "Adobe 黑体 Std R","黑体";
+    }
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}    
+
+.slide-bg{
+	  background-size: 100% 100%;
+}
+.yellow{
+	color:#e2ac77;
+}
+.white{
+	color :#fff;
+}
+.16du_ctn{
+	width:100% !important;
+	height:100% !important;
+	padding-left:0px !important;
+	padding-right:0px !important;
+}
+.swiper-bg-1{
+	background-image: url(../images/bg1.jpg);
+}
+.swiper-bg-2{
+	background-image: url(../images/bg2.jpg);
+}
+.swiper-bg-3{
+	background-color:#000;
+}
+.swiper-bg-4{
+	background-image: url(../images/bg4.jpg);
+}
+.swiper-bg-5{
+	background-color:#000;
+}
+.siderbar-box{
+	  margin: 0 0 20px 0;
+	  padding: 4px;
+}
+.nav-collapse {
+
+  position: absolute;
+	width: 200px;
+  top: 0px;
+  left: 0;
+  z-index: 100;
+}
+.nav-toggle{
+	display:none;
+}
+.nav_menu{
+	color:#fff;
+	font-size:24px;
+	margin-bottom: 40px;
+}
+.nav_menu a {
+	color:#fff;
+	text-decoration: none;
+}
+ .nav_menu a:hover {
+	 color:#e2ac77;
+ }
+ #nav {
+	 text-align: center;
+	 height:100%;
+ }
+ #nav ul{
+	 z-index: 2;
+	 position:relative;
+	 top:25%;
+ }
+ .op_layer{
+	 position: absolute;
+	 top:0px;
+	 left:0px;
+	 height:100%;
+	 width:100%;
+	 opacity: 0.6;
+	 background-color: #000;
+	 z-index: 1;
+ }
+ .slide_down_copy{
+	 text-align: center;
+	 z-index: 999;
+	 color: #e2ac77;
+	 font-size: 24px;
+	 bottom: 10%;
+	 position: absolute;
+	 width: 100%;
+	 left: 0px;
+ }
+.slide_down_icon{
+	position: absolute;
+	margin: 0 auto;
+	bottom: 5%;
+	left: 50%;
+	margin-left: -15px;
+}
+.animation_2s{
+	animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+}
+.slide_title {
+ font-size: 20px;
+ text-align: center;
+}
+.slide_subtitle{
+	text-align: center;
+	font-size:16px;
+	font-family: "Myriad Pro";
+}
+.news_wedgit{
+	background-color:#222222;
+}
+.news_container{
+	max-width: 70%;
+	position: relative;
+	top: 26%;
+}
+.news_wedgit_sub{
+	padding: 10px 35px 30px;
+	font-size: 18px;
+}
+.news_wedgit_title{
+	padding: 20px 35px 0px;
+	font-size: 22px;
+}
+.slide_brand_content{
+	font-size:16px;
+	color:#fff;
+	padding:20px 0px;
+
+@media (min-width: 768px)
+.container {
+  width: 750px;
+}
